@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -19,6 +20,10 @@
         android:id="@+id/imageView18"
         android:layout_width="52dp"
         android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="646dp"
         app:srcCompat="@drawable/logo2"
         tools:layout_editor_absoluteX="343dp"
         tools:layout_editor_absoluteY="16dp" />
@@ -27,6 +32,10 @@
         android:id="@+id/imageView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="183dp"
+        android:layout_marginBottom="661dp"
         app:srcCompat="@drawable/selamat_datang"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="37dp" />
@@ -35,6 +44,10 @@
         android:id="@+id/imageView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="349dp"
+        android:layout_marginBottom="648dp"
         app:srcCompat="@drawable/edward"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="66dp" />
@@ -43,6 +56,10 @@
         android:id="@+id/imageView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="116dp"
         app:srcCompat="@drawable/rec_9"
         tools:layout_editor_absoluteX="39dp"
         tools:layout_editor_absoluteY="113dp" />
@@ -50,7 +67,11 @@
     <ImageView
         android:id="@+id/imageView26"
         android:layout_width="134dp"
-        android:layout_height="134dp"
+        android:layout_height="114dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="125dp"
         app:srcCompat="@drawable/dry_cleaning"
         tools:layout_editor_absoluteX="39dp"
         tools:layout_editor_absoluteY="113dp" />
@@ -59,6 +80,10 @@
         android:id="@+id/imageView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="520dp"
         app:srcCompat="@drawable/clean_and_fresh"
         tools:layout_editor_absoluteX="181dp"
         tools:layout_editor_absoluteY="186dp" />
@@ -67,6 +92,10 @@
         android:id="@+id/imageView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="570dp"
         app:srcCompat="@drawable/chis_laundry"
         tools:layout_editor_absoluteX="181dp"
         tools:layout_editor_absoluteY="147dp" />
@@ -75,6 +104,10 @@
         android:id="@+id/imageView29"
         android:layout_width="350dp"
         android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="424dp"
         app:srcCompat="@drawable/rect3_detail"
         tools:layout_editor_absoluteX="30dp"
         tools:layout_editor_absoluteY="266dp" />
@@ -83,6 +116,10 @@
         android:id="@+id/imageView30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="431dp"
         app:srcCompat="@drawable/lihat_detail_laundry"
         tools:layout_editor_absoluteX="88dp"
         tools:layout_editor_absoluteY="276dp" />
@@ -91,8 +128,26 @@
         android:id="@+id/imageView31"
         android:layout_width="28dp"
         android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="345dp"
+        android:layout_marginBottom="427dp"
         app:srcCompat="@drawable/danger_circle"
         tools:layout_editor_absoluteX="39dp"
         tools:layout_editor_absoluteY="271dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="382dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/biru_5"
+        android:text="     Lihat Detail Laundry"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="309dp" />
+
+</RelativeLayout>
