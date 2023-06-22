@@ -95,4 +95,14 @@
         tools:layout_editor_absoluteX="50dp"
         tools:layout_editor_absoluteY="534dp" />
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kebaya"
+        android:textColor="@color/biru_2"
+        android:fontFamily="@font/poppins"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="220dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
