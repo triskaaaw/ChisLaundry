@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Chis Laundry</string>
+    //activity_login2
+    <string name="email">Masukkan email Anda</string>
+    <string name="pass">Masukkan password Anda</string>
+    <string name="logo">Logo CHIS LAUNDRY</string>
+    <string name="chis">CHIS</string>
+    <string name="laundry">LAUNDRY</string>
+    <string name="masuk_ke_akun_anda">Masuk ke Akun Anda</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="daftar">Daftar</string>
+    <string name="masuk">Masuk</string>
+    <string name="daftar_akun">Daftar Akun</string>
+    <string name="isi_data_dibawahini">Isi data di bawah ini dengan benar !</string>
+
+    //activity_signup
+    <string name="nama_akun">Nama akun</string>
+    <string name="nama">Masukkan nama Anda</string>
+    <string name="tlp">Masukan no telp Anda</string>
+    <string name="daftar2">Daftar</string>
 </resources>
