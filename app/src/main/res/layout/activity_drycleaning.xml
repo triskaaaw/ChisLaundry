@@ -31,4 +31,12 @@
         tools:layout_editor_absoluteX="34dp"
         tools:layout_editor_absoluteY="107dp" />
 
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/r_11"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="171dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
