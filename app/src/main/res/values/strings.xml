@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Chis Laundry</string>
+    //string pada dry cleaning
+    <string name="Keb"><b>Kebaya</b></string>
+    <string name="Jas"><b>Jas</b></string>
+    <string name="har1"><b>Rp. 6000</b></string>
+    <string name="har2"><b>Rp. 5000</b></string>
+    <string name="drycleaningdesc">Deskripsi Dry Cleaning</string>
+    <string name="iconnotification">Ikon notifikasi</string>
+    <string name="pilih_pakaian">pilih-pakaian</string>
+    <string name="foto_kebaya">foto_kebaya</string>
+    <string name="foto_jas">foto-jas</string>
+    <string name="foto_jaket">foto-jaket</string>
+    <string name="foto_gaun">foto-gaun</string>
+    <string name="jaket"><b>Jaket</b></string>
+    <string name="har3">Rp. 3000</string>
+    <string name="gaun"><b>Gaun</b></string>
+    <string name="har4">Rp. 7000</string>
+    <string name="tambah">TAMBAH</string>
+    <string name="ikon_tambah">+</string>
+    <string name="ikon_kurang">-</string>
 </resources>
