@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:contentDescription="@string/logo"
+        android:contentDescription="logo"
         android:layout_marginStart="21dp"
         android:layout_marginTop="65dp"
         android:layout_marginEnd="240dp"
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:contentDescription="@string/chis"
+        android:contentDescription="chis"
         android:layout_marginStart="157dp"
         android:layout_marginTop="86dp"
         android:layout_marginEnd="102dp"
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:contentDescription="@string/laundry"
+        android:contentDescription="laundry"
         android:layout_marginStart="157dp"
         android:layout_marginTop="139dp"
         android:layout_marginEnd="41dp"
@@ -57,7 +57,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="42dp"
         android:layout_marginTop="217dp"
-        android:text="@string/daftar_akun"
+        android:text="Daftar Akun"
         android:textColor="@color/biru_2"
         android:fontFamily="@font/poppins"
         android:textSize="20sp"/>
@@ -70,7 +70,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="42dp"
         android:layout_marginTop="244dp"
-        android:text="@string/isi_data_dibawahini"
+        android:text="Isi data dibawah ini!"
         android:textSize="14sp"
         android:textColor="@color/biru_5"
         android:fontFamily="@font/poppins"/>
@@ -82,7 +82,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:contentDescription="@string/nama_akun"
+        android:contentDescription="nama akun"
         android:layout_marginStart="53dp"
         android:layout_marginTop="291dp"
         android:layout_marginEnd="41dp"
@@ -100,7 +100,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="@string/nama" />
+        android:text="nama" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -123,7 +123,7 @@
         android:ems="10"
         android:minHeight="48dp"
         android:inputType="phone"
-        android:text="@string/tlp"/>
+        android:text="Masukan no tlp Anda"/>
 
     <ImageView
         android:id="@+id/imageView17"
@@ -133,7 +133,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="59dp"
         android:layout_marginTop="418dp"
-        android:contentDescription="@string/email"
+        android:contentDescription="email"
         app:srcCompat="@drawable/inputFields_email" />
 
     <EditText
@@ -147,7 +147,7 @@
         android:ems="10"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
-        android:text="@string/email"/>
+        android:text="Masukan email Anda!"/>
 
     <ImageView
         android:id="@+id/imageView23"
@@ -160,7 +160,7 @@
         android:layout_marginEnd="45dp"
         android:layout_marginBottom="197dp"
         app:srcCompat="@drawable/inputFields_pass"
-        android:contentDescription="@string/pass"/>
+        android:contentDescription="pass"/>
 
     <EditText
         android:id="@+id/editTextPass"
@@ -174,7 +174,7 @@
         android:inputType="textVisiblePassword"
         android:minHeight="48dp"
         android:autofillHints="password"
-        android:text="@string/pass"/>
+        android:text="Masukkan password Anda!"/>
 
     <Button
         android:id="@+id/button5"
@@ -185,7 +185,7 @@
         android:layout_marginEnd="103dp"
         android:layout_marginBottom="101dp"
         android:background="@drawable/Rectangle"
-        android:text="@string/daftar2" />
+        android:text="Daftar" />
 
 
 </RelativeLayout>
