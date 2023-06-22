@@ -7,4 +7,44 @@
     android:background="@color/putih"
     tools:context=".home" >
 
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="414dp"
+        android:layout_height="91dp"
+        app:srcCompat="@drawable/bagian_atas_home"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-4dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="52dp"
+        android:layout_height="59dp"
+        app:srcCompat="@drawable/logo2"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/selamat_datang"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/edward"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="381dp"
+        android:layout_height="106dp"
+        app:srcCompat="@drawable/r_11"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="312dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
