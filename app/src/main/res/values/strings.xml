@@ -19,4 +19,6 @@
     <string name="tambah">TAMBAH</string>
     <string name="ikon_tambah">+</string>
     <string name="ikon_kurang">-</string>
+    //string premium wash
+    <string name="premiumwashdesc">premiumwashdesc</string>
 </resources>
