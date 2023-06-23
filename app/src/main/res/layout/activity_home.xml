@@ -100,54 +100,215 @@
         tools:layout_editor_absoluteX="181dp"
         tools:layout_editor_absoluteY="147dp" />
 
-    <ImageView
-        android:id="@+id/imageView29"
+    <Button
+        android:id="@+id/button5"
         android:layout_width="350dp"
-        android:layout_height="36dp"
+        android:layout_height="35dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="424dp"
-        app:srcCompat="@drawable/rect3_detail"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="266dp" />
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="420dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/biru_5"
+        android:drawableStart="@drawable/danger_circle"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|center_vertical|center_horizontal"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="5dp"
+        android:text="  Lihat Detail Laundry"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="309dp"
 
     <ImageView
-        android:id="@+id/imageView30"
+        android:id="@+id/imageView33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="118dp"
-        android:layout_marginBottom="431dp"
-        app:srcCompat="@drawable/lihat_detail_laundry"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="276dp" />
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="381dp"
+        app:srcCompat="@drawable/kategori" />
 
     <ImageView
-        android:id="@+id/imageView31"
-        android:layout_width="28dp"
-        android:layout_height="31dp"
+        android:id="@+id/imageView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="345dp"
-        android:layout_marginBottom="427dp"
-        app:srcCompat="@drawable/danger_circle"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="271dp" />
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="74dp"
+        app:srcCompat="@drawable/rectangle11" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="75dp"
+        app:srcCompat="@drawable/rectangle11" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="236dp"
+        app:srcCompat="@drawable/rectangle11" />
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="350dp"
-        android:layout_height="30dp"
+        android:id="@+id/button13"
+        android:layout_width="170dp"
+        android:layout_height="124dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="35dp"
-        android:layout_marginBottom="382dp"
+        android:layout_marginEnd="223dp"
+        android:layout_marginBottom="245dp"
         android:background="@drawable/rounded_corner"
-        android:backgroundTint="@color/biru_5"
-        android:text="     Lihat Detail Laundry"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="309dp" />
+        android:backgroundTint="@color/biru_dasar2"
+        android:drawableStart="@drawable/washing2"
+        android:gravity="start|center_vertical|center_horizontal"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="5dp"
+        android:text="Button" />
 
-</RelativeLayout>
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="217dp"
+        android:layout_marginBottom="235dp"
+        app:srcCompat="@drawable/rectangle11" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="168dp"
+        android:layout_height="124dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="247dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/biru_dasar2"
+        android:drawableStart="@drawable/iron4"
+        android:gravity="start|center_vertical|center_horizontal"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="5dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="150dp"
+        android:layout_height="124dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="195dp"
+        android:background="@drawable/rounded_corner"
+        android:drawableStart="@drawable/cucisetrika"
+        android:drawableEnd="@drawable/vector"
+        android:fontFamily="@font/poppins"
+        android:textAllCaps="false"
+        android:textColor="@color/biru_2" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="150dp"
+        android:layout_height="124dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="196dp"
+        android:background="@drawable/rounded_corner"
+        android:drawableStart="@drawable/setrika"
+        android:drawableEnd="@drawable/vector"
+        android:fontFamily="@font/poppins"
+        android:textAllCaps="false"
+        android:textColor="@color/biru_2" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="168dp"
+        android:layout_height="124dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="83dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/biru_dasar2"
+        android:drawableStart="@drawable/adornment2"
+        android:gravity="start|center_vertical|center_horizontal"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="5dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="168dp"
+        android:layout_height="124dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="82dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/biru_dasar2"
+        android:drawableStart="@drawable/dry2"
+        android:gravity="start|center_vertical|center_horizontal"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="5dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="168dp"
+        android:layout_height="124dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="82dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/biru_dasar2"
+        android:drawableStart="@drawable/dry2"
+        android:gravity="start|center_vertical|center_horizontal"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="5dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="150dp"
+        android:layout_height="124dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/rounded_corner"
+        android:drawableStart="@drawable/premiumwash"
+        android:drawableEnd="@drawable/vector"
+        android:fontFamily="@font/poppins"
+        android:textAllCaps="false"
+        android:textColor="@color/biru_2" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="150dp"
+        android:layout_height="124dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/rounded_corner"
+        android:drawableStart="@drawable/drycleaning"
+        android:drawableEnd="@drawable/vector"
+        android:fontFamily="@font/poppins"
+        android:textAllCaps="false"
+        android:textColor="@color/biru_2" />
+
