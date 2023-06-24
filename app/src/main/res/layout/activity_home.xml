@@ -103,11 +103,11 @@
     <Button
         android:id="@+id/button5"
         android:layout_width="350dp"
-        android:layout_height="35dp"
+        android:layout_height="48dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="34dp"
-        android:layout_marginBottom="420dp"
+        android:layout_marginBottom="416dp"
         android:background="@drawable/rounded_corner"
         android:backgroundTint="@color/biru_5"
         android:drawableStart="@drawable/danger_circle"
@@ -115,12 +115,12 @@
         android:gravity="start|center_vertical|center_horizontal"
         android:paddingHorizontal="16dp"
         android:paddingVertical="5dp"
-        android:text="  Lihat Detail Laundry"
+        android:text="    Lihat Detail Laundry"
         android:textAllCaps="false"
         android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="309dp"
+        tools:layout_editor_absoluteY="309dp" />
 
     <ImageView
         android:id="@+id/imageView33"
@@ -138,8 +138,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="215dp"
-        android:layout_marginBottom="74dp"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="75dp"
         app:srcCompat="@drawable/rectangle11" />
 
     <ImageView
@@ -148,7 +148,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="23dp"
+        android:layout_marginEnd="25dp"
         android:layout_marginBottom="75dp"
         app:srcCompat="@drawable/rectangle11" />
 
@@ -162,153 +162,101 @@
         android:layout_marginBottom="236dp"
         app:srcCompat="@drawable/rectangle11" />
 
-    <Button
-        android:id="@+id/button13"
-        android:layout_width="170dp"
-        android:layout_height="124dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="223dp"
-        android:layout_marginBottom="245dp"
-        android:background="@drawable/rounded_corner"
-        android:backgroundTint="@color/biru_dasar2"
-        android:drawableStart="@drawable/washing2"
-        android:gravity="start|center_vertical|center_horizontal"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="5dp"
-        android:text="Button" />
-
     <ImageView
         android:id="@+id/imageView34"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="217dp"
-        android:layout_marginBottom="235dp"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="236dp"
         app:srcCompat="@drawable/rectangle11" />
 
     <Button
-        android:id="@+id/button14"
-        android:layout_width="168dp"
-        android:layout_height="124dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="29dp"
-        android:layout_marginBottom="247dp"
-        android:background="@drawable/rounded_corner"
-        android:backgroundTint="@color/biru_dasar2"
-        android:drawableStart="@drawable/iron4"
-        android:gravity="start|center_vertical|center_horizontal"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="5dp"
-        android:text="Button" />
-
-    <Button
-        android:id="@+id/button15"
+        android:id="@+id/button16"
         android:layout_width="150dp"
-        android:layout_height="30dp"
+        android:layout_height="48dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="230dp"
-        android:layout_marginBottom="244dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="237dp"
         android:background="@drawable/rounded_corner"
         android:drawableStart="@drawable/cucisetrika"
-        android:drawableEnd="@drawable/vector"
-        android:fontFamily="@font/poppins"
-        android:textAllCaps="false"
-        android:textColor="@color/biru_2" />
+        android:drawableEnd="@drawable/vector" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="237dp"
+        android:background="@drawable/rounded_corner"
+        android:drawableStart="@drawable/setrika"
+        android:drawableEnd="@drawable/vector" />
+
+    <Button
+        android:id="@+id/button51"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="77dp"
+        android:background="@drawable/rounded_corner"
+        android:drawableStart="@drawable/premiumwash"
+        android:drawableEnd="@drawable/vector" />
 
     <Button
         android:id="@+id/button15"
         android:layout_width="150dp"
-        android:layout_height="30dp"
+        android:layout_height="48dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="39dp"
-        android:layout_marginBottom="244dp"
-        android:background="@drawable/rounded_corner"
-        android:drawableStart="@drawable/setrika"
-        android:drawableEnd="@drawable/vector"
-        android:fontFamily="@font/poppins"
-        android:textAllCaps="false"
-        android:textColor="@color/biru_2" />
-
-    <Button
-        android:id="@+id/button14"
-        android:layout_width="168dp"
-        android:layout_height="124dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="83dp"
-        android:background="@drawable/rounded_corner"
-        android:backgroundTint="@color/biru_dasar2"
-        android:drawableStart="@drawable/adornment2"
-        android:gravity="start|center_vertical|center_horizontal"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="5dp"
-        android:text="Button" />
-
-    <Button
-        android:id="@+id/button14"
-        android:layout_width="168dp"
-        android:layout_height="124dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="220dp"
-        android:layout_marginBottom="82dp"
-        android:background="@drawable/rounded_corner"
-        android:backgroundTint="@color/biru_dasar2"
-        android:drawableStart="@drawable/dry2"
-        android:gravity="start|center_vertical|center_horizontal"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="5dp"
-        android:text="Button" />
-
-    <Button
-        android:id="@+id/button16"
-        android:layout_width="168dp"
-        android:layout_height="124dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="214dp"
-        android:layout_marginBottom="82dp"
-        android:background="@drawable/rounded_corner"
-        android:backgroundTint="@color/biru_dasar2"
-        android:drawableStart="@drawable/dry2"
-        android:gravity="start|center_vertical|center_horizontal"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="5dp"
-        android:text="Button" />
-
-    <Button
-        android:id="@+id/button15"
-        android:layout_width="150dp"
-        android:layout_height="30dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="228dp"
-        android:layout_marginBottom="81dp"
-        android:background="@drawable/rounded_corner"
-        android:drawableStart="@drawable/premiumwash"
-        android:drawableEnd="@drawable/vector"
-        android:fontFamily="@font/poppins"
-        android:textAllCaps="false"
-        android:textColor="@color/biru_2" />
-
-    <Button
-        android:id="@+id/button15"
-        android:layout_width="150dp"
-        android:layout_height="30dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="37dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="75dp"
         android:background="@drawable/rounded_corner"
         android:drawableStart="@drawable/drycleaning"
-        android:drawableEnd="@drawable/vector"
-        android:fontFamily="@font/poppins"
-        android:textAllCaps="false"
-        android:textColor="@color/biru_2" />
+        android:drawableEnd="@drawable/vector" />
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="297dp"
+        android:layout_marginBottom="129dp"
+        app:srcCompat="@drawable/adornment2" />
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="127dp"
+        app:srcCompat="@drawable/dry2" />
+
+    <ImageView
+        android:id="@+id/imageView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="288dp"
+        app:srcCompat="@drawable/iron4" />
+
+    <ImageView
+        android:id="@+id/imageView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="292dp"
+        android:layout_marginBottom="287dp"
+        app:srcCompat="@drawable/washing2" />
 
