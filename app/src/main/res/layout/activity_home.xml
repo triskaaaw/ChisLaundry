@@ -48,25 +48,25 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="19dp"
-        android:layout_marginTop="43dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="183dp"
-        android:layout_marginBottom="661dp"
+        android:layout_marginBottom="668dp"
         app:srcCompat="@drawable/selamat_datang"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="37dp" />
 
     <ImageView
         android:id="@+id/imageView21"
-        android:layout_width="wrap_content"
+        android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginTop="74dp"
-        android:layout_marginEnd="349dp"
-        android:layout_marginBottom="648dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="324dp"
+        android:layout_marginBottom="653dp"
         app:srcCompat="@drawable/edward"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="66dp" />
@@ -79,10 +79,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="104dp"
-        android:layout_marginEnd="43dp"
-        android:layout_marginBottom="489dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="472dp"
         app:srcCompat="@drawable/rec_9"
         tools:layout_editor_absoluteX="39dp"
         tools:layout_editor_absoluteY="113dp" />
@@ -143,10 +143,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="27dp"
-        android:layout_marginTop="267dp"
-        android:layout_marginEnd="34dp"
-        android:layout_marginBottom="416dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="266dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="417dp"
         android:background="@drawable/rounded_corner"
         android:backgroundTint="@color/biru_5"
         android:drawableStart="@drawable/danger_circle"
@@ -168,10 +168,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginTop="328dp"
-        android:layout_marginEnd="312dp"
-        android:layout_marginBottom="381dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="314dp"
+        android:layout_marginBottom="383dp"
         app:srcCompat="@drawable/kategori" />
 
     <ImageView
@@ -182,10 +182,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="644dp"
-        android:layout_marginEnd="19dp"
-        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="6dp"
         app:srcCompat="@drawable/rectangle17" />
 
     <ImageButton
@@ -196,10 +196,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="46dp"
-        android:layout_marginTop="686dp"
-        android:layout_marginEnd="327dp"
-        android:layout_marginBottom="37dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="683dp"
+        android:layout_marginEnd="325dp"
+        android:layout_marginBottom="40dp"
         android:backgroundTint="@color/biru_dasar2"
         app:srcCompat="@drawable/home" />
 
@@ -211,9 +211,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="136dp"
+        android:layout_marginStart="133dp"
         android:layout_marginTop="681dp"
-        android:layout_marginEnd="238dp"
+        android:layout_marginEnd="241dp"
         android:layout_marginBottom="34dp"
         android:backgroundTint="@color/biru_dasar2"
         app:srcCompat="@drawable/buy" />
@@ -221,15 +221,15 @@
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="28dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="223dp"
-        android:layout_marginTop="681dp"
-        android:layout_marginEnd="153dp"
-        android:layout_marginBottom="34dp"
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="683dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="39dp"
         android:backgroundTint="@color/biru_dasar2"
         app:srcCompat="@drawable/document" />
 
@@ -259,7 +259,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="355dp"
         android:layout_marginEnd="205dp"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="@color/putih"
         android:layout_marginBottom="225dp"
         app:srcCompat="@drawable/buttoncucisetrika" />
 
@@ -274,7 +274,7 @@
         android:layout_marginStart="14dp"
         android:layout_marginTop="512dp"
         android:layout_marginEnd="198dp"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="@color/putih"
         android:layout_marginBottom="68dp"
         app:srcCompat="@drawable/buttondrycleaning" />
 
@@ -289,7 +289,7 @@
         android:layout_marginStart="216dp"
         android:layout_marginTop="511dp"
         android:layout_marginEnd="8dp"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="@color/putih"
         android:layout_marginBottom="69dp"
         app:srcCompat="@drawable/buttonpremiumwash" />
 
@@ -305,7 +305,7 @@
         android:layout_marginTop="355dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="225dp"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="@color/putih"
         app:srcCompat="@drawable/buttonsetrika" />
 
 </RelativeLayout>
