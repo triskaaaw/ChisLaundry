@@ -103,148 +103,82 @@
         android:id="@+id/imageView50"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="328dp"
-        android:layout_marginEnd="316dp"
         android:contentDescription="@string/kategoriteks"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.455"
         app:srcCompat="@drawable/kategori" />
 
-    <ImageView
-        android:id="@+id/imageView53"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="360dp"
-        android:layout_marginEnd="204dp"
-        android:contentDescription="@string/kategoriteks"
-        app:layout_constraintEnd_toEndOf="@+id/imageView40"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/rectangle11" />
-
-    <ImageView
-        android:id="@+id/imageView54"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="360dp"
-        android:layout_marginEnd="16dp"
-        android:contentDescription="@string/kategoricard"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/rectangle11" />
-
-    <ImageView
-        android:id="@+id/imageView57"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="500dp"
-        android:layout_marginEnd="204dp"
-        android:contentDescription="@string/kategoricard"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/rectangle11" />
-
-    <ImageView
-        android:id="@+id/imageView61"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="500dp"
-        android:layout_marginEnd="16dp"
-        android:contentDescription="@string/kategoricard"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/rectangle11" />
-
-    <ImageView
-        android:id="@+id/imageView63"
-        android:layout_width="66dp"
-        android:layout_height="66dp"
-        android:layout_marginTop="508dp"
-        android:layout_marginEnd="76dp"
-        android:contentDescription="@string/premiumwashpict"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/adornment2" />
-
-    <ImageView
-        android:id="@+id/imageView64"
-        android:layout_width="69dp"
-        android:layout_height="67dp"
-        android:layout_marginTop="508dp"
-        android:layout_marginEnd="252dp"
-        android:contentDescription="@string/drycleaningpict"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dry2" />
-
-    <ImageView
-        android:id="@+id/imageView65"
-        android:layout_width="92dp"
-        android:layout_height="64dp"
-        android:layout_marginTop="368dp"
-        android:layout_marginEnd="64dp"
-        android:contentDescription="@string/setrikapict"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/iron4" />
-
-    <ImageView
-        android:id="@+id/imageView66"
-        android:layout_width="69dp"
-        android:layout_height="64dp"
-        android:layout_marginTop="368dp"
-        android:layout_marginEnd="252dp"
-        android:contentDescription="@string/cuciandsetrikapict"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/washing2" />
-
     <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="150dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="212dp"
-        android:layout_marginBottom="108dp"
-        android:background="@drawable/rounded_corner"
-        android:contentDescription="@string/drycleaningdesc"
+        android:id="@+id/imageButton14"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/putih"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/drycleaning" />
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.622"
+        app:srcCompat="@drawable/buttoncucisetrika" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
-        android:layout_width="150dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="108dp"
-        android:background="@drawable/rounded_corner"
-        android:contentDescription="@string/premiumwashdesc"
+        android:id="@+id/imageButton17"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/putih"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/premiumwash" />
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.622"
+        app:srcCompat="@drawable/buttonsetrika" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
-        android:layout_width="150dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="248dp"
-        android:background="@drawable/rounded_corner"
-        android:contentDescription="@string/setrikateks"
+        android:id="@+id/imageButton15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/putih"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/setrika" />
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.851"
+        app:srcCompat="@drawable/buttondrycleaning" />
 
     <ImageButton
-        android:id="@+id/imageButton10"
-        android:layout_width="150dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="220dp"
-        android:layout_marginBottom="248dp"
-        android:background="@drawable/rounded_corner"
-        android:contentDescription="@string/cucisetrika"
+        android:id="@+id/imageButton16"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/putih"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/cucisetrika" />
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.851"
+        app:srcCompat="@drawable/buttonpremiumwash" />
 
     <ImageView
         android:id="@+id/imageView67"
@@ -285,11 +219,12 @@
         android:layout_height="48dp"
         android:layout_marginEnd="56dp"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/rounded_corner"
         android:fontFamily="@font/poppins"
         android:text="@string/klik_disini"
         android:textAllCaps="false"
         android:textColor="@color/biru_4"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/putih"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
