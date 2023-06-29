@@ -33,7 +33,7 @@
         android:layout_marginEnd="102dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/CHIS2" />
+        app:srcCompat="@drawable/chis2" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -47,7 +47,7 @@
         android:layout_marginEnd="41dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Laundry2" />
+        app:srcCompat="@drawable/laundry2" />
 
     <TextView
         android:id="@+id/textView2"
@@ -86,10 +86,10 @@
         android:layout_marginStart="53dp"
         android:layout_marginTop="291dp"
         android:layout_marginEnd="41dp"
-        app:srcCompat="@drawable/inputFields_nama" />
+        app:srcCompat="@drawable/inputfields_nama" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/etNama"
         android:layout_width="256dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -110,10 +110,10 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="59dp"
         android:layout_marginTop="355dp"
-        app:srcCompat="@drawable/inputFields_tlp" />
+        app:srcCompat="@drawable/inputfields_tlp" />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/etPhone"
         android:layout_width="256dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -134,10 +134,10 @@
         android:layout_marginStart="59dp"
         android:layout_marginTop="418dp"
         android:contentDescription="email"
-        app:srcCompat="@drawable/inputFields_email" />
+        app:srcCompat="@drawable/inputfields_email" />
 
     <EditText
-        android:id="@+id/editTextEmail"
+        android:id="@+id/etEmail2"
         android:layout_width="256dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -159,11 +159,11 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="45dp"
         android:layout_marginBottom="197dp"
-        app:srcCompat="@drawable/inputFields_pass"
+        app:srcCompat="@drawable/inputfields_pass"
         android:contentDescription="pass"/>
 
     <EditText
-        android:id="@+id/editTextPass"
+        android:id="@+id/etPass2"
         android:layout_width="256dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -177,7 +177,7 @@
         android:text="Masukkan password Anda!"/>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnDaftar3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"

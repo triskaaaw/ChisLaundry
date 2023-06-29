@@ -43,19 +43,37 @@
         app:layout_constraintVertical_bias="0.208"
         app:srcCompat="@drawable/CHIS2" />
 
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="deskripsichislaundry"
-        android:text="CHIS Laundry adalah layanan
-jasa laundry yang melayani
- servis antar jemput."
-        android:textColor="@color/biru_2"
-        android:fontFamily="font/poppins"
+    <ImageView
+        android:id="@+id/imageView98"
+        android:layout_width="457dp"
+        android:layout_height="93dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.523" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/headercucisetrika"  />
+
+    <ImageView
+        android:id="@+id/imageView99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView98"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="@+id/imageView98"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/detaillaundry" />
+
+    <ImageView
+        android:id="@+id/imageView100"
+        android:layout_width="65dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
