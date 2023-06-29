@@ -398,4 +398,42 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.809" />
 
+    <ImageView
+        android:id="@+id/imageView75"
+        android:layout_width="457dp"
+        android:layout_height="93dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/headercucisetrika" />
+
+    <ImageView
+        android:id="@+id/imageView88"
+        android:layout_width="166dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/deskripsidrycleaning" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:background=" "
+        android:contentDescription="kembalikehome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026"
+        app:srcCompat="@drawable/vectorback"
+        tools:ignore="ImageContrastCheck" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
