@@ -146,7 +146,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/btnAlamat"
         android:layout_width="100dp"
         android:layout_height="48dp"
         android:layout_marginEnd="56dp"
@@ -160,7 +160,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView53"
+        android:id="@+id/btnCucisetrika2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -172,7 +172,7 @@
         app:srcCompat="@drawable/grupcucisetrika" />
 
     <ImageView
-        android:id="@+id/imageView54"
+        android:id="@+id/btnSetrika2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -184,7 +184,7 @@
         app:srcCompat="@drawable/grupsetrika" />
 
     <ImageView
-        android:id="@+id/imageView55"
+        android:id="@+id/btnDrycleaning2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -196,7 +196,7 @@
         app:srcCompat="@drawable/grupdrycleaning" />
 
     <ImageView
-        android:id="@+id/imageView56"
+        android:id="@+id/btnPremiumwash2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
