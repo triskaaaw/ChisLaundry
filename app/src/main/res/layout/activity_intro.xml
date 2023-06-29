@@ -15,7 +15,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="131dp"
         android:layout_marginBottom="389dp"
-        app:srcCompat="@drawable/CHIS" />
+        app:srcCompat="@drawable/chis" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -25,17 +25,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="94dp"
         android:layout_marginBottom="322dp"
-        app:srcCompat="@drawable/Laundry" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="254dp"
-        android:layout_marginBottom="310dp"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/laundry" />
 
 
 </RelativeLayout>

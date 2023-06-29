@@ -178,13 +178,13 @@
 
     <Button
         android:id="@+id/btnDaftar3"
-        android:layout_width="wrap_content"
+        android:layout_width="291dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="103dp"
-        android:layout_marginBottom="101dp"
-        android:background="@drawable/Rectangle"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="103dp"
+        android:background="@drawable/biru_notifikasi"
         android:text="Daftar" />
 
 
