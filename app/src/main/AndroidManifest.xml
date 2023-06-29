@@ -44,6 +44,18 @@
         <activity
             android:name=".signupsukses"
             android:exported="false" />
+        <activity
+            android:name=".drycleaning"
+            android:exported="false" />
+        <activity
+            android:name=".editprofilsukses"
+            android:exported="false" />
+        <activity
+            android:name=".setrika"
+            android:exported="false" />
+        <activity
+            android:name=".profil"
+            android:exported="false" />
     </application>
 
 </manifest>
