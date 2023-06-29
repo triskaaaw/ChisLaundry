@@ -355,7 +355,7 @@
         android:id="@+id/button23"
         android:layout_width="48dp"
         android:layout_height="53dp"
-        android:background=" "
+        android:background="@color/white"
         android:text="@string/ikon_kurang"
         android:textColor="@color/biru_4"
         android:textSize="25sp"
@@ -433,6 +433,5 @@
         app:layout_constraintVertical_bias="0.041"
         app:srcCompat="@drawable/vectorback"
         tools:ignore="ImageContrastCheck" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

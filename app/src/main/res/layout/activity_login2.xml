@@ -31,7 +31,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.223"
-        app:srcCompat="@drawable/CHIS2" />
+        app:srcCompat="@drawable/chis2" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -44,7 +44,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.291"
-        app:srcCompat="@drawable/Laundry2" />
+        app:srcCompat="@drawable/laundry2" />
 
     <TextView
         android:id="@+id/textView"
@@ -67,10 +67,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/inputFields_email" />
+        app:srcCompat="@drawable/inputfields_email" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/etEmail"
         android:layout_width="254dp"
         android:layout_height="52dp"
         android:layout_marginTop="376dp"
@@ -92,10 +92,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/inputFields_pass" />
+        app:srcCompat="@drawable/inputfields_pass" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/etPass"
         android:layout_width="254dp"
         android:layout_height="52dp"
         android:layout_marginTop="452dp"
@@ -122,7 +122,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/textView5"
+        android:id="@+id/btnDaftar2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="580dp"
@@ -135,7 +135,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnMasuk2"
         android:layout_width="300dp"
         android:layout_height="51dp"
         android:background="@drawable/biru_notifikasi"
