@@ -408,5 +408,31 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/headercucisetrika" />
 
+    <ImageView
+        android:id="@+id/imageView97"
+        android:layout_width="181dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.234"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/premiumwash" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:background=" "
+        android:contentDescription="kembalikehome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041"
+        app:srcCompat="@drawable/vectorback"
+        tools:ignore="ImageContrastCheck" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
