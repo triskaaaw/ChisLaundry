@@ -12,11 +12,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:contentDescription="logo"
+        android:layout_alignParentBottom="true"
         android:layout_marginStart="21dp"
         android:layout_marginTop="65dp"
         android:layout_marginEnd="240dp"
+        android:layout_marginBottom="531dp"
+        android:contentDescription="logo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo2" />
@@ -26,11 +29,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:contentDescription="chis"
+        android:layout_alignParentBottom="true"
         android:layout_marginStart="157dp"
         android:layout_marginTop="86dp"
         android:layout_marginEnd="102dp"
+        android:layout_marginBottom="600dp"
+        android:contentDescription="chis"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/chis2" />
@@ -40,11 +46,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:contentDescription="laundry"
+        android:layout_alignParentBottom="true"
         android:layout_marginStart="157dp"
         android:layout_marginTop="139dp"
         android:layout_marginEnd="41dp"
+        android:layout_marginBottom="541dp"
+        android:contentDescription="laundry"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/laundry2" />
@@ -83,9 +92,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:contentDescription="nama akun"
-        android:layout_marginStart="53dp"
+        android:layout_marginStart="59dp"
         android:layout_marginTop="291dp"
-        android:layout_marginEnd="41dp"
+        android:layout_marginEnd="45dp"
         app:srcCompat="@drawable/inputfields_nama" />
 
     <EditText
@@ -94,13 +103,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginStart="109dp"
         android:layout_marginTop="293dp"
-        android:autofillHints="name"
+        android:layout_marginEnd="46dp"
+        android:autofillHints="Masukkan nama Anda"
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="nama" />
+        android:textColor="@color/black" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -108,22 +119,27 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginStart="59dp"
         android:layout_marginTop="355dp"
+        android:layout_marginEnd="45dp"
         app:srcCompat="@drawable/inputfields_tlp" />
 
     <EditText
         android:id="@+id/etPhone"
         android:layout_width="256dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:layout_marginStart="110dp"
         android:layout_marginTop="357dp"
         android:layout_marginEnd="45dp"
+        android:autofillHints="Masukkan no telp Anda"
         android:ems="10"
-        android:minHeight="48dp"
         android:inputType="phone"
-        android:text="Masukan no tlp Anda"/>
+        android:minHeight="48dp"
+        android:textColor="@color/black" />
 
     <ImageView
         android:id="@+id/imageView17"
@@ -131,8 +147,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginStart="59dp"
         android:layout_marginTop="418dp"
+        android:layout_marginEnd="45dp"
         android:contentDescription="email"
         app:srcCompat="@drawable/inputfields_email" />
 
@@ -140,50 +158,61 @@
         android:id="@+id/etEmail2"
         android:layout_width="256dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:layout_marginStart="109dp"
         android:layout_marginTop="420dp"
         android:layout_marginEnd="46dp"
+        android:autofillHints="Masukkan Email Anda"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
-        android:text="Masukan email Anda!"/>
+        android:textColor="@color/black" />
 
     <ImageView
         android:id="@+id/imageView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView17"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="45dp"
         android:layout_marginBottom="197dp"
-        app:srcCompat="@drawable/inputfields_pass"
-        android:contentDescription="pass"/>
+        android:contentDescription="pass"
+        app:srcCompat="@drawable/inputfields_pass" />
 
     <EditText
         android:id="@+id/etPass2"
-        android:layout_width="256dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="109dp"
         android:layout_marginTop="481dp"
-        android:layout_marginEnd="47dp"
-        android:ems="10"
-        android:inputType="textVisiblePassword"
-        android:minHeight="48dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="202dp"
+        android:inputType="textPassword"
         android:autofillHints="password"
-        android:text="Masukkan password Anda!"/>
+        android:ems="10"
+        android:minHeight="48dp"
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/btnDaftar3"
         android:layout_width="291dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="55dp"
-        android:layout_marginBottom="103dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="102dp"
         android:background="@drawable/biru_notifikasi"
         android:text="Daftar" />
 
