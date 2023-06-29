@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="409dp"
     android:layout_height="729dp"
-    android:contentDescription="cucisetrika"
+    android:contentDescription="@string/cucisetrika"
     android:background="@color/putih"
     tools:layout_editor_absoluteX="1dp"
     tools:layout_editor_absoluteY="1dp"
@@ -24,7 +24,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/headercucisetrika" />
+            app:srcCompat="@drawable/headercucisetrika"
+            android:contentDescription="@string/headercucisetrika" />
 
         <ImageView
             android:id="@+id/imageView79"
@@ -32,18 +33,19 @@
             android:layout_height="39dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.254"
+            app:layout_constraintHorizontal_bias="0.351"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.042"
-            app:srcCompat="@drawable/tekscucidansetrika" />
+            app:srcCompat="@drawable/tekscucidansetrika"
+            android:contentDescription="@string/cucisetrikateks" />
 
         <ImageButton
             android:id="@+id/imageButton5"
             android:layout_width="54dp"
             android:layout_height="50dp"
             android:background="@drawable/rounded_corner"
-            android:contentDescription="kembalikehome"
+            android:contentDescription="@string/kembalikehome"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -57,6 +59,7 @@
             android:id="@+id/imageView80"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/iconnotification"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.492"
@@ -69,6 +72,7 @@
             android:id="@+id/imageView81"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/iconnotification"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.087"
@@ -81,6 +85,7 @@
             android:id="@+id/imageView82"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/definisicucidansetrika"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.625"
@@ -154,6 +159,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:contentDescription="@string/rokimage"
             app:layout_constraintEnd_toEndOf="@+id/imageView87"
             app:layout_constraintStart_toStartOf="@+id/imageView87"
             app:layout_constraintTop_toBottomOf="@+id/imageView87"
@@ -169,7 +175,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.251"
-            app:srcCompat="@drawable/shirt" />
+            app:srcCompat="@drawable/shirt"
+            android:contentDescription="@string/fotokaos" />
 
         <ImageView
             android:id="@+id/imageView92"
@@ -180,7 +187,8 @@
             app:layout_constraintHorizontal_bias="0.466"
             app:layout_constraintStart_toStartOf="@+id/imageView91"
             app:layout_constraintTop_toBottomOf="@+id/imageView91"
-            app:srcCompat="@drawable/kemeja" />
+            app:srcCompat="@drawable/kemeja"
+            android:contentDescription="@string/fotokemeja" />
 
         <ImageView
             android:id="@+id/imageView93"
@@ -191,7 +199,8 @@
             app:layout_constraintHorizontal_bias="0.466"
             app:layout_constraintStart_toStartOf="@+id/imageView92"
             app:layout_constraintTop_toBottomOf="@+id/imageView92"
-            app:srcCompat="@drawable/socks" />
+            app:srcCompat="@drawable/socks"
+            android:contentDescription="@string/fotokaoskaki" />
 
         <ImageView
             android:id="@+id/imageView94"
@@ -202,7 +211,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/imageView93"
             app:layout_constraintTop_toBottomOf="@+id/imageView93"
-            app:srcCompat="@drawable/cd" />
+            app:srcCompat="@drawable/cd"
+            android:contentDescription="@string/fotopakaiandalam" />
 
         <ImageView
             android:id="@+id/imageView95"
@@ -213,7 +223,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/imageView94"
             app:layout_constraintTop_toBottomOf="@+id/imageView94"
-            app:srcCompat="@drawable/celanapendek" />
+            app:srcCompat="@drawable/celanapendek"
+            android:contentDescription="@string/fotocelana" />
 
         <ImageView
             android:id="@+id/imageView96"
@@ -223,7 +234,8 @@
             android:layout_marginEnd="4dp"
             app:layout_constraintEnd_toEndOf="@+id/imageView95"
             app:layout_constraintTop_toBottomOf="@+id/imageView95"
-            app:srcCompat="@drawable/rok" />
+            app:srcCompat="@drawable/rok"
+            android:contentDescription="@string/fotorok" />
 
         <Button
             android:id="@+id/button27"
@@ -244,7 +256,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="200dp"
-            android:text="Baju Kaos"
+            android:text="@string/baju_kaos"
             android:textColor="@color/biru_2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.386"
@@ -268,7 +280,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="304dp"
-            android:text="Kemeja"
+            android:text="@string/kemeja"
             android:textColor="@color/biru_2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.37"
@@ -292,7 +304,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="412dp"
-            android:text="Kaos Kaki"
+            android:text="@string/kaos_kaki"
             android:textColor="@color/biru_2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.371"
@@ -314,7 +326,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="516dp"
-            android:text="Pakaian Dalam"
+            android:text="@string/pakaian_dalam"
             android:textColor="@color/biru_2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.408"
@@ -338,7 +350,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="624dp"
-            android:text="Celana"
+            android:text="@string/celana"
             android:textColor="@color/biru_2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.357"
@@ -363,7 +375,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="128dp"
             android:layout_marginTop="724dp"
-            android:text="Rok"
+            android:text="@string/rok"
             android:textColor="@color/biru_2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -385,6 +397,7 @@
             android:layout_width="48dp"
             android:layout_height="53dp"
             android:background="@drawable/round_button"
+            android:contentDescription="@string/ikon_tambah"
             android:text="@string/ikon_tambah"
             android:textColor="@color/biru_4"
             android:textSize="25sp"

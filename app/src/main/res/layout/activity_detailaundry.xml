@@ -18,7 +18,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/bagian_atas_home" />
+        app:srcCompat="@drawable/headercucisetrika"
+        android:contentDescription="@string/headerdetaillaundry" />
 
     <ImageView
         android:id="@+id/imageView41"
@@ -28,7 +29,8 @@
         android:layout_marginEnd="172dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/detlaundry" />
+        app:srcCompat="@drawable/detlaundry"
+        android:contentDescription="@string/detaillaundry" />
 
     <ImageButton
         android:id="@+id/imageButton6"
@@ -39,7 +41,8 @@
         android:background="@drawable/rounded_corner"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vectorback" />
+        app:srcCompat="@drawable/vectorback"
+        android:contentDescription="@string/ikonkembali" />
 
     <ImageView
         android:id="@+id/imageView43"
@@ -49,7 +52,8 @@
         android:layout_marginEnd="28dp"
         app:layout_constraintEnd_toEndOf="@+id/imageView40"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logodry" />
+        app:srcCompat="@drawable/logodry"
+        android:contentDescription="@string/ikonlogo" />
 
     <ImageView
         android:id="@+id/imageView45"
@@ -57,6 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="108dp"
         android:layout_marginEnd="244dp"
+        android:contentDescription="@string/ikonlogo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logodry2" />
@@ -67,6 +72,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="124dp"
         android:layout_marginEnd="92dp"
+        android:contentDescription="@string/chisteks"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/chis1" />
@@ -77,6 +83,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="176dp"
         android:layout_marginEnd="52dp"
+        android:contentDescription="@string/laundryteks"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/laund1" />
@@ -87,6 +94,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="236dp"
         android:layout_marginEnd="64dp"
+        android:contentDescription="@string/definisichislaundry"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView40"
         app:srcCompat="@drawable/chisdesc" />
@@ -97,6 +105,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="328dp"
         android:layout_marginEnd="316dp"
+        android:contentDescription="@string/kategoriteks"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/kategori" />
@@ -107,6 +116,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="360dp"
         android:layout_marginEnd="204dp"
+        android:contentDescription="@string/kategoriteks"
         app:layout_constraintEnd_toEndOf="@+id/imageView40"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/rectangle11" />
@@ -117,6 +127,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="360dp"
         android:layout_marginEnd="16dp"
+        android:contentDescription="@string/kategoricard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/rectangle11" />
@@ -127,6 +138,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="500dp"
         android:layout_marginEnd="204dp"
+        android:contentDescription="@string/kategoricard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/rectangle11" />
@@ -137,6 +149,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="500dp"
         android:layout_marginEnd="16dp"
+        android:contentDescription="@string/kategoricard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/rectangle11" />
@@ -147,6 +160,7 @@
         android:layout_height="66dp"
         android:layout_marginTop="508dp"
         android:layout_marginEnd="76dp"
+        android:contentDescription="@string/premiumwashpict"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/adornment2" />
@@ -157,6 +171,7 @@
         android:layout_height="67dp"
         android:layout_marginTop="508dp"
         android:layout_marginEnd="252dp"
+        android:contentDescription="@string/drycleaningpict"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/dry2" />
@@ -167,6 +182,7 @@
         android:layout_height="64dp"
         android:layout_marginTop="368dp"
         android:layout_marginEnd="64dp"
+        android:contentDescription="@string/setrikapict"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/iron4" />
@@ -177,6 +193,7 @@
         android:layout_height="64dp"
         android:layout_marginTop="368dp"
         android:layout_marginEnd="252dp"
+        android:contentDescription="@string/cuciandsetrikapict"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/washing2" />
@@ -188,6 +205,7 @@
         android:layout_marginEnd="212dp"
         android:layout_marginBottom="108dp"
         android:background="@drawable/rounded_corner"
+        android:contentDescription="@string/drycleaningdesc"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/drycleaning" />
@@ -199,6 +217,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="108dp"
         android:background="@drawable/rounded_corner"
+        android:contentDescription="@string/premiumwashdesc"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/premiumwash" />
@@ -210,6 +229,7 @@
         android:layout_marginEnd="28dp"
         android:layout_marginBottom="248dp"
         android:background="@drawable/rounded_corner"
+        android:contentDescription="@string/setrikateks"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/setrika" />
@@ -221,6 +241,7 @@
         android:layout_marginEnd="220dp"
         android:layout_marginBottom="248dp"
         android:background="@drawable/rounded_corner"
+        android:contentDescription="@string/cucisetrika"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/cucisetrika" />
@@ -231,6 +252,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="156dp"
         android:layout_marginBottom="32dp"
+        android:contentDescription="@string/cekalamatlaundry"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/alamatcek" />
@@ -241,6 +263,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="204dp"
         android:layout_marginBottom="68dp"
+        android:contentDescription="@string/hubungiadmin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/hubadmin" />
@@ -251,7 +274,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="52dp"
         android:layout_marginBottom="68dp"
-        android:text="082247605073 (Putri)"
+        android:text="@string/putrihandphone"
         android:textColor="@color/biru_4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -264,7 +287,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/rounded_corner"
         android:fontFamily="@font/poppins"
-        android:text="Klik Disini"
+        android:text="@string/klik_disini"
         android:textAllCaps="false"
         android:textColor="@color/biru_4"
         app:layout_constraintBottom_toBottomOf="parent"
