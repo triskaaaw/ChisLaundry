@@ -147,4 +147,41 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/buttonsimpan" />
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="235dp"
+        android:layout_height="25dp"
+        android:text="Ni Made Wulandari"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="235dp"
+        android:layout_height="25dp"
+        android:text="085829145898"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="235dp"
+        android:layout_height="25dp"
+        android:text="nimadewulandari9@gmail.com"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="235dp"
+        android:layout_height="25dp"
+        android:text="**********"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="448dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
