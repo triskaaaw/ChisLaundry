@@ -304,6 +304,7 @@
         android:layout_marginTop="63dp"
         android:layout_marginEnd="335dp"
         android:layout_marginBottom="649dp"
+        android:textColor="@color/biru_3"
         />
 
 </RelativeLayout>
