@@ -98,7 +98,7 @@
         app:srcCompat="@drawable/inputfields_nama" />
 
     <EditText
-        android:id="@+id/etNama"
+        android:id="@+id/name"
         android:layout_width="256dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -126,7 +126,7 @@
         app:srcCompat="@drawable/inputfields_tlp" />
 
     <EditText
-        android:id="@+id/etPhone"
+        android:id="@+id/handphone"
         android:layout_width="256dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -155,7 +155,7 @@
         app:srcCompat="@drawable/inputfields_email" />
 
     <EditText
-        android:id="@+id/etEmail2"
+        android:id="@+id/userId"
         android:layout_width="256dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -186,7 +186,7 @@
         app:srcCompat="@drawable/inputfields_pass" />
 
     <EditText
-        android:id="@+id/etPass2"
+        android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
