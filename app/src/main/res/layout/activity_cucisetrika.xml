@@ -26,6 +26,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@drawable/headercucisetrika"
+            android:adjustViewBounds="true"
             android:contentDescription="@string/headercucisetrika" />
 
         <ImageView
@@ -38,6 +39,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.042"
+            android:adjustViewBounds="true"
             app:srcCompat="@drawable/tekscucidansetrika"
             android:contentDescription="@string/cucisetrikateks" />
 
@@ -54,6 +56,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.042"
             app:srcCompat="@drawable/vectorback"
+            android:adjustViewBounds="true"
             tools:ignore="ImageContrastCheck" />
 
         <ImageView
@@ -67,6 +70,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.141"
+            android:adjustViewBounds="true"
             app:srcCompat="@drawable/biru_notifikasi" />
 
         <ImageView
@@ -79,6 +83,7 @@
             app:layout_constraintHorizontal_bias="0.087"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintVertical_bias="0.155"
             app:srcCompat="@drawable/danger_circle" />
 
@@ -93,6 +98,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.154"
+            android:adjustViewBounds="true"
             app:srcCompat="@drawable/deskripsicucidansetrika" />
 
         <ImageView
@@ -104,6 +110,7 @@
             app:layout_constraintEnd_toEndOf="@+id/imageView80"
             app:layout_constraintStart_toStartOf="@+id/imageView80"
             app:layout_constraintTop_toBottomOf="@+id/imageView80"
+            android:adjustViewBounds="true"
             app:srcCompat="@drawable/r_11" />
 
         <ImageView
@@ -117,6 +124,7 @@
             app:layout_constraintStart_toStartOf="@+id/imageView83"
             app:layout_constraintTop_toBottomOf="@+id/imageView83"
             app:srcCompat="@drawable/r_11"
+            android:adjustViewBounds="true"
             tools:ignore="MissingConstraints" />
 
         <ImageView
@@ -129,6 +137,7 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/imageView84"
             app:layout_constraintTop_toBottomOf="@+id/imageView84"
+            android:adjustViewBounds="true"
             app:srcCompat="@drawable/r_11" />
 
         <ImageView
@@ -141,6 +150,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/imageView85"
             app:layout_constraintTop_toBottomOf="@+id/imageView85"
+            android:adjustViewBounds="true"
             app:srcCompat="@drawable/r_11" />
 
         <ImageView
@@ -153,6 +163,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/imageView86"
             app:layout_constraintTop_toBottomOf="@+id/imageView86"
+            android:adjustViewBounds="true"
             app:srcCompat="@drawable/r_11" />
 
         <ImageView
@@ -164,6 +175,7 @@
             app:layout_constraintEnd_toEndOf="@+id/imageView87"
             app:layout_constraintStart_toStartOf="@+id/imageView87"
             app:layout_constraintTop_toBottomOf="@+id/imageView87"
+            android:adjustViewBounds="true"
             app:srcCompat="@drawable/r_11" />
 
         <ImageView
@@ -177,6 +189,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.251"
             app:srcCompat="@drawable/shirt"
+            android:adjustViewBounds="true"
             android:contentDescription="@string/fotokaos" />
 
         <ImageView
@@ -189,6 +202,7 @@
             app:layout_constraintStart_toStartOf="@+id/imageView91"
             app:layout_constraintTop_toBottomOf="@+id/imageView91"
             app:srcCompat="@drawable/kemeja"
+            android:adjustViewBounds="true"
             android:contentDescription="@string/fotokemeja" />
 
         <ImageView
@@ -201,6 +215,7 @@
             app:layout_constraintStart_toStartOf="@+id/imageView92"
             app:layout_constraintTop_toBottomOf="@+id/imageView92"
             app:srcCompat="@drawable/socks"
+            android:adjustViewBounds="true"
             android:contentDescription="@string/fotokaoskaki" />
 
         <ImageView
@@ -213,6 +228,7 @@
             app:layout_constraintStart_toStartOf="@+id/imageView93"
             app:layout_constraintTop_toBottomOf="@+id/imageView93"
             app:srcCompat="@drawable/cd"
+            android:adjustViewBounds="true"
             android:contentDescription="@string/fotopakaiandalam" />
 
         <ImageView
@@ -225,6 +241,7 @@
             app:layout_constraintStart_toStartOf="@+id/imageView94"
             app:layout_constraintTop_toBottomOf="@+id/imageView94"
             app:srcCompat="@drawable/celanapendek"
+            android:adjustViewBounds="true"
             android:contentDescription="@string/fotocelana" />
 
         <ImageView
@@ -236,6 +253,7 @@
             app:layout_constraintEnd_toEndOf="@+id/imageView95"
             app:layout_constraintTop_toBottomOf="@+id/imageView95"
             app:srcCompat="@drawable/rok"
+            android:adjustViewBounds="true"
             android:contentDescription="@string/fotorok" />
 
         <Button
@@ -250,6 +268,7 @@
             app:layout_constraintHorizontal_bias="0.466"
             app:layout_constraintStart_toStartOf="@+id/imageView90"
             tools:ignore="MissingConstraints"
+            android:adjustViewBounds="true"
             tools:layout_editor_absoluteY="823dp" />
 
         <TextView
@@ -260,6 +279,7 @@
             android:text="@string/baju_kaos"
             android:textColor="@color/biru_2"
             app:layout_constraintEnd_toEndOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintHorizontal_bias="0.386"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -272,6 +292,7 @@
             android:text="@string/har2"
             android:textColor="@color/biru_3"
             app:layout_constraintEnd_toEndOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintHorizontal_bias="0.38"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -284,6 +305,7 @@
             android:text="@string/kemeja"
             android:textColor="@color/biru_2"
             app:layout_constraintEnd_toEndOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintHorizontal_bias="0.37"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -296,6 +318,7 @@
             android:text="@string/har1"
             android:textColor="@color/biru_3"
             app:layout_constraintEnd_toEndOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintHorizontal_bias="0.38"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -308,6 +331,7 @@
             android:text="@string/kaos_kaki"
             android:textColor="@color/biru_2"
             app:layout_constraintEnd_toEndOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintHorizontal_bias="0.371"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -320,6 +344,7 @@
             android:textColor="@color/biru_3"
             tools:layout_editor_absoluteX="131dp"
             tools:layout_editor_absoluteY="435dp"
+            android:adjustViewBounds="true"
             tools:ignore="MissingConstraints" />
 
         <TextView
@@ -330,6 +355,7 @@
             android:text="@string/pakaian_dalam"
             android:textColor="@color/biru_2"
             app:layout_constraintEnd_toEndOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintHorizontal_bias="0.408"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -342,6 +368,7 @@
             android:text="@string/har3"
             android:textColor="@color/biru_3"
             app:layout_constraintEnd_toEndOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintHorizontal_bias="0.366"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView29" />
@@ -354,6 +381,7 @@
             android:text="@string/celana"
             android:textColor="@color/biru_2"
             app:layout_constraintEnd_toEndOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintHorizontal_bias="0.357"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -366,6 +394,7 @@
             android:text="@string/har2"
             android:textColor="@color/biru_3"
             app:layout_constraintEnd_toEndOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintHorizontal_bias="0.372"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -378,6 +407,7 @@
             android:layout_marginTop="724dp"
             android:text="@string/rok"
             android:textColor="@color/biru_2"
+            android:adjustViewBounds="true"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -391,6 +421,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.363"
             app:layout_constraintStart_toStartOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintTop_toTopOf="@+id/textView33" />
 
         <Button
@@ -407,6 +438,7 @@
             app:layout_constraintHorizontal_bias="0.637"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintVertical_bias="0.244" />
 
         <Button
@@ -422,6 +454,7 @@
             app:layout_constraintHorizontal_bias="0.637"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintVertical_bias="0.362" />
 
         <Button
@@ -436,6 +469,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.637"
             app:layout_constraintStart_toStartOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
@@ -451,6 +485,7 @@
             app:layout_constraintHorizontal_bias="0.637"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintVertical_bias="0.627" />
 
         <Button
@@ -466,6 +501,7 @@
             app:layout_constraintHorizontal_bias="0.637"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintVertical_bias="0.753" />
 
         <Button
@@ -481,6 +517,7 @@
             app:layout_constraintHorizontal_bias="0.637"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintVertical_bias="0.886" />
 
         <Button
@@ -496,6 +533,7 @@
             app:layout_constraintHorizontal_bias="0.905"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintVertical_bias="0.244" />
 
         <Button
@@ -511,6 +549,7 @@
             app:layout_constraintHorizontal_bias="0.905"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintVertical_bias="0.361" />
 
         <Button
@@ -526,6 +565,7 @@
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintVertical_bias="0.504" />
 
         <Button
@@ -541,6 +581,7 @@
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintVertical_bias="0.63" />
 
         <Button
@@ -556,6 +597,7 @@
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintVertical_bias="0.753" />
 
         <Button
@@ -571,6 +613,7 @@
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:adjustViewBounds="true"
             app:layout_constraintVertical_bias="0.884" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
