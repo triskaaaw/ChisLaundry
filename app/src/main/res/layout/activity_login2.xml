@@ -70,7 +70,7 @@
         app:srcCompat="@drawable/inputfields_email" />
 
     <EditText
-        android:id="@+id/etEmail"
+        android:id="@+id/userId"
         android:layout_width="254dp"
         android:layout_height="52dp"
         android:layout_marginTop="376dp"
@@ -96,7 +96,7 @@
         app:srcCompat="@drawable/inputfields_pass" />
 
     <EditText
-        android:id="@+id/etPass"
+        android:id="@+id/password"
         android:layout_width="254dp"
         android:layout_height="52dp"
         android:layout_marginTop="452dp"
