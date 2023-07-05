@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.chislaundry.utils.model.PremiumwashCart;
+import com.example.chislaundry.views.MainActivity2;
 
 public class DetaillaundryActivity extends AppCompatActivity {
 
@@ -30,25 +30,25 @@ public class DetaillaundryActivity extends AppCompatActivity {
         btncucisetrika.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivities(new Intent[]{new Intent(getApplicationContext(),CucisetrikaActivity.class)});
+                startActivities(new Intent[]{new Intent(getApplicationContext(), MainActivity2.class)});
             }
         });
         btnsetrika.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivities(new Intent[]{new Intent(getApplicationContext(),setrika.class)});
+                startActivities(new Intent[]{new Intent(getApplicationContext(), MainActivity2.class)});
             }
         });
         btndrycleaning.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivities(new Intent[]{new Intent(getApplicationContext(),drycleaning.class)});
+                startActivities(new Intent[]{new Intent(getApplicationContext(), MainActivity2.class)});
             }
         });
         btnpremiumwash.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivities(new Intent[]{new Intent(getApplicationContext(), PremiumwashCart.class)});
+                startActivities(new Intent[]{new Intent(getApplicationContext(), MainActivity2.class)});
             }
         });
         btnalamat.setOnClickListener(new View.OnClickListener() {

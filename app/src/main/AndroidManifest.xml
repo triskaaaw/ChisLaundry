@@ -30,9 +30,6 @@
             android:name=".DetaillaundryActivity"
             android:exported="false" />
         <activity
-            android:name=".CucisetrikaActivity"
-            android:exported="false" />
-        <activity
             android:name=".views.MainActivity2"
             android:exported="false" />
         <activity
@@ -49,12 +46,6 @@
             android:exported="false" />
         <activity
             android:name=".signupsukses"
-            android:exported="false" />
-        <activity
-            android:name=".drycleaning"
-            android:exported="false" />
-        <activity
-            android:name=".setrika"
             android:exported="false" />
         <activity
             android:name=".editprofil"

@@ -1,9 +1,9 @@
 package com.example.chislaundry;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class editprofil extends AppCompatActivity {
     TextView tampilName, tampilHandphone, tampilEmail, tampilPassword;
