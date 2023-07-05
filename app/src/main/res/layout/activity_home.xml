@@ -64,9 +64,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="99dp"
+        android:layout_marginTop="124dp"
         android:layout_marginEnd="26dp"
-        android:layout_marginBottom="472dp"
+        android:layout_marginBottom="447dp"
         app:srcCompat="@drawable/rec_9"
         tools:layout_editor_absoluteX="39dp"
         tools:layout_editor_absoluteY="113dp" />
@@ -79,13 +79,14 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="113dp"
-        android:layout_marginEnd="242dp"
-        android:layout_marginBottom="504dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="235dp"
+        android:layout_marginBottom="474dp"
         app:srcCompat="@drawable/dry_cleaning"
         tools:layout_editor_absoluteX="39dp"
         tools:layout_editor_absoluteY="113dp" />
+
 
     <ImageView
         android:id="@+id/imageView27"
@@ -96,9 +97,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="184dp"
-        android:layout_marginTop="176dp"
+        android:layout_marginTop="204dp"
         android:layout_marginEnd="101dp"
-        android:layout_marginBottom="520dp"
+        android:layout_marginBottom="492dp"
         app:srcCompat="@drawable/clean_and_fresh"
         tools:layout_editor_absoluteX="181dp"
         tools:layout_editor_absoluteY="186dp" />
@@ -111,38 +112,13 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="182dp"
-        android:layout_marginTop="146dp"
-        android:layout_marginEnd="89dp"
-        android:layout_marginBottom="570dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="169dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="546dp"
         app:srcCompat="@drawable/chis_laundry"
         tools:layout_editor_absoluteX="181dp"
         tools:layout_editor_absoluteY="147dp" />
-
-    <Button
-        android:id="@+id/btnDetail"
-        android:layout_width="350dp"
-        android:layout_height="48dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="266dp"
-        android:layout_marginEnd="27dp"
-        android:layout_marginBottom="417dp"
-        android:background="@drawable/rounded_corner"
-        android:backgroundTint="@color/biru_5"
-        android:drawableStart="@drawable/danger_circle"
-        android:fontFamily="@font/poppins"
-        android:gravity="start|center_vertical|center_horizontal"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="5dp"
-        android:text="    Lihat Detail Laundry"
-        android:textAllCaps="false"
-        android:textSize="17sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView33"
@@ -153,10 +129,10 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="19dp"
-        android:layout_marginTop="332dp"
+        android:layout_marginTop="312dp"
         android:layout_marginEnd="314dp"
-        android:layout_marginBottom="383dp"
-        app:srcCompat="@drawable/kategori" />
+        android:layout_marginBottom="403dp"
+        app:srcCompat="@drawable/pilihkategorimenu" />
 
     <ImageView
         android:id="@+id/imageView62"
@@ -233,7 +209,7 @@
         app:srcCompat="@drawable/profile" />
 
     <ImageButton
-        android:id="@+id/btnCucisetrika"
+        android:id="@+id/buttonPemesanan"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -245,10 +221,10 @@
         android:layout_marginEnd="205dp"
         android:backgroundTint="@color/putih"
         android:layout_marginBottom="225dp"
-        app:srcCompat="@drawable/buttoncucisetrika" />
+        app:srcCompat="@drawable/btnpemesanan" />
 
     <ImageButton
-        android:id="@+id/btnDrycleaning"
+        android:id="@+id/buttonLihatlokasi"
         android:layout_width="wrap_content"
         android:layout_height="148dp"
         android:layout_alignParentStart="true"
@@ -260,10 +236,10 @@
         android:layout_marginEnd="198dp"
         android:layout_marginBottom="83dp"
         android:backgroundTint="@color/putih"
-        app:srcCompat="@drawable/buttondrycleaning" />
+        app:srcCompat="@drawable/lihatlokasi" />
 
     <ImageButton
-        android:id="@+id/btnPremiumwash"
+        android:id="@+id/buttonHubungikami"
         android:layout_width="wrap_content"
         android:layout_height="149dp"
         android:layout_alignParentStart="true"
@@ -275,10 +251,10 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="82dp"
         android:backgroundTint="@color/putih"
-        app:srcCompat="@drawable/buttonpremiumwash" />
+        app:srcCompat="@drawable/hubungikami" />
 
     <ImageButton
-        android:id="@+id/btnSetrika"
+        android:id="@+id/buttonJenislayanan"
         android:layout_width="185dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -290,7 +266,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="225dp"
         android:backgroundTint="@color/putih"
-        app:srcCompat="@drawable/buttonsetrika" />
+        app:srcCompat="@drawable/btnjenislayanan" />
 
     <TextView
         android:id="@+id/name"
@@ -301,10 +277,11 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="19dp"
-        android:layout_marginTop="63dp"
+        android:layout_marginTop="65dp"
         android:layout_marginEnd="181dp"
-        android:layout_marginBottom="649dp"
-        android:textColor="@color/biru_3" />
+        android:layout_marginBottom="642dp"
+        android:textColor="@color/biru_3"
+        android:textSize="18dp" />
 
 </RelativeLayout>
 

@@ -25,24 +25,12 @@
         android:id="@+id/imageView41"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="172dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="204dp"
+        android:contentDescription="@string/detaillaundry"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/detlaundry"
-        android:contentDescription="@string/detaillaundry" />
-
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="360dp"
-        android:background="@drawable/rounded_corner"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vectorback"
-        android:contentDescription="@string/ikonkembali" />
+        app:srcCompat="@drawable/detlaundry" />
 
     <ImageView
         android:id="@+id/imageView43"

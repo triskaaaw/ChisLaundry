@@ -1,6 +1,7 @@
 package com.example.chislaundry;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,7 +17,7 @@ public class home extends AppCompatActivity{
 
     TextView tName;
     Button btndetail;
-    ImageButton btnhome, btnriwayat, btnprofil, btnkeranjang, btncucisetrika, btnsetrika, btnpremiumwash, btndrycleaning;
+    ImageButton btnhome, btnriwayat, btnprofil, btnkeranjang, buttonpemesanan, buttonjenislayanan, buttonhubungikami, buttonlihatlokasi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,23 +27,16 @@ public class home extends AppCompatActivity{
         tName = findViewById(R.id.name);
         String name = getIntent().getStringExtra("name");
         tName.setText(name);
-        btndetail = findViewById(R.id.btnDetail);
         btnhome = findViewById(R.id.btnHome);
         btnriwayat = findViewById(R.id.btnRiwayat);
         btnprofil = findViewById(R.id.btnProfil);
         btnkeranjang = findViewById(R.id.btnKeranjang);
-        btncucisetrika = findViewById(R.id.btnCucisetrika);
-        btnsetrika = findViewById(R.id.btnSetrika);
-        btnpremiumwash = findViewById(R.id.btnPremiumwash);
-        btndrycleaning = findViewById(R.id.btnDrycleaning);
+        buttonpemesanan = findViewById(R.id.buttonPemesanan);
+        buttonjenislayanan = findViewById(R.id.buttonJenislayanan);
+        buttonhubungikami = findViewById(R.id.buttonHubungikami);
+        buttonlihatlokasi = findViewById(R.id.buttonLihatlokasi);
 
         //memasukkan aksi
-        btndetail.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivities(new Intent[]{new Intent(getApplicationContext(),DetaillaundryActivity.class)});
-            }
-        });
 
         btnhome.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,31 +66,37 @@ public class home extends AppCompatActivity{
             }
         });
 
-        btncucisetrika.setOnClickListener(new View.OnClickListener() {
+        buttonpemesanan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivities(new Intent[]{new Intent(getApplicationContext(),CucisetrikaActivity.class)});
+                startActivities(new Intent[]{new Intent(getApplicationContext(),MainActivity2.class)});
             }
         });
 
-        btnsetrika.setOnClickListener(new View.OnClickListener() {
+        buttonjenislayanan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivities(new Intent[]{new Intent(getApplicationContext(),setrika.class)});
+                startActivities(new Intent[]{new Intent(getApplicationContext(),DetaillaundryActivity.class)});
             }
         });
 
-        btnpremiumwash.setOnClickListener(new View.OnClickListener() {
+        buttonhubungikami.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivities(new Intent[]{new Intent(getApplicationContext(), MainActivity2.class)});
+                String text = "Halo%20Saya%20mau%20/%20bertanya%20tentang%20pemesanan%20jasa%20laundry%20di%20CHIS%20Laundry.";
+                String url = String.format("https://wa.me/+6282247605073?text=%s",text);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
             }
         });
 
-        btndrycleaning.setOnClickListener(new View.OnClickListener() {
+        buttonlihatlokasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivities(new Intent[]{new Intent(getApplicationContext(),drycleaning.class)});
+                Uri uri = Uri.parse("geo:0,0?q=-8.795945132892731, 115.17621799491707");
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
             }
         });
     }
