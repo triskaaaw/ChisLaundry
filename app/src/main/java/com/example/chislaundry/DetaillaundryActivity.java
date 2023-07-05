@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import com.example.chislaundry.utils.model.PremiumwashCart;
+
 public class DetaillaundryActivity extends AppCompatActivity {
 
     ImageView btncucisetrika, btnsetrika, btndrycleaning, btnpremiumwash;
@@ -45,7 +47,7 @@ public class DetaillaundryActivity extends AppCompatActivity {
         btnpremiumwash.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivities(new Intent[]{new Intent(getApplicationContext(),premiumwash.class)});
+                startActivities(new Intent[]{new Intent(getApplicationContext(), PremiumwashCart.class)});
             }
         });
         btnalamat.setOnClickListener(new View.OnClickListener() {

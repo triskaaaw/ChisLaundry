@@ -294,7 +294,7 @@
 
     <TextView
         android:id="@+id/name"
-        android:layout_width="wrap_content"
+        android:layout_width="211dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -302,10 +302,9 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="19dp"
         android:layout_marginTop="63dp"
-        android:layout_marginEnd="335dp"
+        android:layout_marginEnd="181dp"
         android:layout_marginBottom="649dp"
-        android:textColor="@color/biru_3"
-        />
+        android:textColor="@color/biru_3" />
 
 </RelativeLayout>
 

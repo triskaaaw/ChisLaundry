@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/putih"
-    tools:context=".premiumwash">
+    tools:context=".utils.model.PremiumwashCart">
 
     <ImageView
         android:id="@+id/imageView7"
@@ -262,126 +262,6 @@
         app:layout_constraintVertical_bias="0.811" />
 
     <Button
-        android:id="@+id/button13"
-        android:layout_width="48dp"
-        android:layout_height="53dp"
-        android:background="@drawable/round_button"
-        android:text="@string/ikon_tambah"
-        android:textColor="@color/biru_4"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.611"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.327" />
-
-    <Button
-        android:id="@+id/button17"
-        android:layout_width="48dp"
-        android:layout_height="53dp"
-        android:background="@drawable/round_button"
-        android:text="@string/ikon_tambah"
-        android:textColor="@color/biru_4"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.611"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.477" />
-
-    <Button
-        android:id="@+id/button18"
-        android:layout_width="48dp"
-        android:layout_height="53dp"
-        android:background="@drawable/round_button"
-        android:text="@string/ikon_tambah"
-        android:textColor="@color/biru_4"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.611"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.643" />
-
-    <Button
-        android:id="@+id/button19"
-        android:layout_width="48dp"
-        android:layout_height="53dp"
-        android:background="@drawable/round_button"
-        android:text="@string/ikon_tambah"
-        android:textColor="@color/biru_4"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.611"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.809" />
-
-    <Button
-        android:id="@+id/button21"
-        android:layout_width="48dp"
-        android:layout_height="53dp"
-        android:background="@drawable/round_button"
-        android:text="@string/ikon_kurang"
-        android:textColor="@color/biru_4"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.873"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.327" />
-
-    <Button
-        android:id="@+id/button22"
-        android:layout_width="48dp"
-        android:layout_height="53dp"
-        android:background="@drawable/round_button"
-        android:text="@string/ikon_kurang"
-        android:textColor="@color/biru_4"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.873"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.477" />
-
-    <Button
-        android:id="@+id/button23"
-        android:layout_width="48dp"
-        android:layout_height="53dp"
-        android:background="@drawable/round_button"
-        android:text="@string/ikon_kurang"
-        android:textColor="@color/biru_4"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.873"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.641" />
-
-    <Button
-        android:id="@+id/button24"
-        android:layout_width="48dp"
-        android:layout_height="53dp"
-        android:background="@drawable/round_button"
-        android:text="@string/ikon_kurang"
-        android:textColor="@color/biru_4"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.873"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.809"/>
-
-    <Button
         android:id="@+id/button25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -417,7 +297,7 @@
         app:layout_constraintHorizontal_bias="0.234"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/premiumwash" />
+        app:srcCompat="@drawable/premiumwashtext" />
 
     <ImageButton
         android:id="@+id/imageButton12"

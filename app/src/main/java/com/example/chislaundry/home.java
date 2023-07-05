@@ -9,6 +9,9 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.chislaundry.views.CartActivity;
+import com.example.chislaundry.views.MainActivity2;
+
 public class home extends AppCompatActivity{
 
     TextView tName;
@@ -65,7 +68,7 @@ public class home extends AppCompatActivity{
         btnkeranjang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivities(new Intent[]{new Intent(getApplicationContext(),home.class)});
+                startActivities(new Intent[]{new Intent(getApplicationContext(), CartActivity.class)});
             }
         });
 
@@ -86,7 +89,7 @@ public class home extends AppCompatActivity{
         btnpremiumwash.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivities(new Intent[]{new Intent(getApplicationContext(),premiumwash.class)});
+                startActivities(new Intent[]{new Intent(getApplicationContext(), MainActivity2.class)});
             }
         });
 
