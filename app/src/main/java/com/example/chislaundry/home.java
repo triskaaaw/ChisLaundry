@@ -17,7 +17,7 @@ public class home extends AppCompatActivity{
 
     TextView tName;
 
-    ImageButton btnhome, btnriwayat, btnprofil, btnkeranjang, buttonpemesanan, buttonjenislayanan, buttonhubungikami, buttonlihatlokasi;
+    ImageButton btnkeranjang, buttonpemesanan, buttonjenislayanan, buttonhubungikami, buttonlihatlokasi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,9 +27,6 @@ public class home extends AppCompatActivity{
         tName = findViewById(R.id.name);
         String name = getIntent().getStringExtra("name");
         tName.setText(name);
-        btnhome = findViewById(R.id.btnHome);
-        btnriwayat = findViewById(R.id.btnRiwayat);
-        btnprofil = findViewById(R.id.btnProfil);
         btnkeranjang = findViewById(R.id.btnKeranjang);
         buttonpemesanan = findViewById(R.id.buttonPemesanan);
         buttonjenislayanan = findViewById(R.id.buttonJenislayanan);
@@ -37,27 +34,6 @@ public class home extends AppCompatActivity{
         buttonlihatlokasi = findViewById(R.id.buttonLihatlokasi);
 
         //memasukkan aksi
-
-        btnhome.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivities(new Intent[]{new Intent(getApplicationContext(),home.class)});
-            }
-        });
-
-        btnriwayat.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivities(new Intent[]{new Intent(getApplicationContext(),home.class)});
-            }
-        });
-
-        btnprofil.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivities(new Intent[]{new Intent(getApplicationContext(), editprofil.class)});
-            }
-        });
 
         btnkeranjang.setOnClickListener(new View.OnClickListener() {
             @Override
