@@ -16,7 +16,7 @@ import com.example.chislaundry.views.MainActivity2;
 public class home extends AppCompatActivity{
 
     TextView tName;
-    Button btndetail;
+
     ImageButton btnhome, btnriwayat, btnprofil, btnkeranjang, buttonpemesanan, buttonjenislayanan, buttonhubungikami, buttonlihatlokasi;
 
     @Override
@@ -55,7 +55,7 @@ public class home extends AppCompatActivity{
         btnprofil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivities(new Intent[]{new Intent(getApplicationContext(),profil.class)});
+                startActivities(new Intent[]{new Intent(getApplicationContext(), editprofil.class)});
             }
         });
 
