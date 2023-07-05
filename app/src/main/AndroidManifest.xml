@@ -47,9 +47,6 @@
         <activity
             android:name=".signupsukses"
             android:exported="false" />
-        <activity
-            android:name=".editprofil"
-            android:exported="false" />
     </application>
 
 </manifest>
